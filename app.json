@@ -1,15 +1,13 @@
 {
   "expo": {
     "name": "brainBattle",
-    "slug": "brainBattle",
+    "slug": "brain-battle",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#00BCD4"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ashaduzzaman2002.brainBattle"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48b15907-43e7-4c9c-995d-1896375da2b5"
+      }
+    },
+    "owner": "ashaduzzaman2002"
   }
 }
